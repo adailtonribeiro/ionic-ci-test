@@ -10,6 +10,9 @@
     "lint": "ionic-app-scripts lint",
     "ionic:build": "ionic-app-scripts build",
     "ionic:serve": "ionic-app-scripts serve",
+    "prettier": "prettier --write src/**",
+    "pretty-quick": "pretty-quick",
+    "precommit": "pretty-quick --staged",
     "commitmsg": "commitlint -e $GIT_PARAMS"
   },
   "dependencies": {
@@ -43,6 +46,8 @@
     "@commitlint/cli": "^6.2.0",
     "@ionic/app-scripts": "3.1.8",
     "husky": "^0.14.3",
+    "prettier": "^1.12.1",
+    "pretty-quick": "^1.4.1",
     "typescript": "~2.6.2"
   },
   "description": "An Ionic project",
